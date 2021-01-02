@@ -1,3 +1,9 @@
+This is a program that sniffs packets on an interface and returns the following metrics when terminated:
+- Number of SYN packets detected and the number of unique IPs (SYN Attack)
+- Number of unsolicited ARP reply/response packets (ARP Cache Poisoning)
+- Number of HTTP URL Blocklist violations
+- Number of packets seen
+
 Installation:
 `make` - which creates `../build/`
 `../build/idsniff` - which runs the project with default options. May require root.
